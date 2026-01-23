@@ -1,6 +1,2188 @@
-<!doctype htmtl>
-<html>
-  <body>
-    <h1>HELLO</h1>
-  </body>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Jedi Order Legacy - Home</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+<style>
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body { font-family: 'Orbitron', sans-serif; background: #000; color: #cfd3d6; }
+
+  
+
+  /* ===== NAVBAR ===== */
+
+  nav {
+
+    position: fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    background: rgba(0,0,0,0.9);
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:10px;
+
+    padding:8px 0;
+
+    z-index: 100;
+
+  }
+
+  nav a {
+
+    color:#4cc9f0;
+
+    text-decoration:none;
+
+    font-family: 'Cinzel', serif;
+
+    font-size: 8px;
+
+    transition: 0.3s;
+
+  }
+
+  nav a:hover {
+
+    color:#fff;
+
+    text-shadow: 0 0 10px #4cc9f0;
+
+  }
+
+  /* ===== HOME SECTION ===== */
+
+  #home {
+
+    height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding-top:60px; /* navbar space */
+
+    background: radial-gradient(circle at top,#0b1d2d,#000);
+
+  }
+
+  #home .logo {
+
+    width: 250px;
+
+    max-width: 80vw;
+
+    filter: drop-shadow(0 0 25px #4cc9f0);
+
+    margin-bottom: 20px;
+
+  }
+
+  #home h1 {
+
+    font-family: 'Cinzel', serif;
+
+    font-size: 42px;
+
+    color: #4cc9f0;
+
+    letter-spacing: 4px;
+
+    text-shadow: 0 0 15px #4cc9f0;
+
+    margin-bottom: 20px;
+
+  }
+
+  #home p {
+
+    font-size: 16px;
+
+    max-width: 500px;
+
+    line-height: 1.5;
+
+    margin-bottom: 30px;
+
+    color: #cfd3d6;
+
+  }
+
+  #home .join-btn {
+
+    padding: 14px 50px;
+
+    background:#4cc9f0;
+
+    color:#000;
+
+    font-family:'Cinzel', serif;
+
+    font-size:16px;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+  }
+
+  #home .join-btn:hover {
+
+    background:#fff;
+
+    color:#4cc9f0;
+
+    box-shadow: 0 0 20px #4cc9f0;
+
+  }
+
+  /* RESPONSIVE */
+
+  @media(max-width:600px){
+
+    #home h1 { font-size:32px; }
+
+    #home p { font-size:14px; padding:0 20px; }
+
+    nav { gap:15px; padding:10px 0; }
+
+  }
+
+</style>
+
+</head>
+
+<body>
+
+<!-- ===== NAVBAR ===== -->
+  <nav>
+
+  <a href="#home">Home</a>
+
+  <a href="#rules">Rules</a>
+
+  <a href="#highcouncil">High Council</a>
+
+  <a href="#ranks">Ranks</a>
+
+</nav>
+<!-- ===== HOME SECTION ===== -->
+
+<section id="home">
+  
+<br>
+  
+  <img src="https://i.imgur.com/FseAZpx.png" alt="Jedi Order Legacy Logo" class="logo">
+ 
+
+  <h1>JEDI ORDER LEGACY</h1>
+
+  <p>Welcome to the Jedi Order Legacy. Explore our rules, pathways, and media to become part of the greatest clan in Saber Showdown.</p>
+
+  <a href="https://discord.gg/B2HQxsk7qa" class="join-btn" target="_blank">Join the Order</a>
+
+</section>
+  <section id="rules">
+    
+
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Jedi Order Legacy - Rules</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+<style>
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body { font-family:'Orbitron', sans-serif; background:#000; color:#cfd3d6; }
+
+  
+
+  /* NAVBAR */
+
+  nav {
+
+    position: fixed;
+
+    top:0; left:0;
+
+    width:100%;
+
+    background: rgba(0,0,0,0.9);
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    padding:8px 0;
+
+    z-index:100;
+
+  }
+
+  nav a {
+
+    color:#4cc9f0;
+
+    text-decoration:none;
+
+    font-family:'Cinzel', serif;
+
+    font-size:12px;
+
+    transition:0.3s;
+
+  }
+
+  nav a:hover {
+
+    color:#fff;
+
+    text-shadow:0 0 10px #4cc9f0;
+
+  }
+
+  /* SECTION */
+
+  section { padding:80px 20px 40px 20px; max-width:900px; margin:0 auto; }
+
+  /* HEADINGS */
+
+  h2 { 
+
+    font-family:'Cinzel', serif; 
+
+    color:#4cc9f0; 
+
+    font-size:28px; 
+
+    text-align:center; 
+
+    margin-bottom:20px; 
+
+    text-shadow:0 0 15px #4cc9f0;
+
+  }
+
+  /* ACCORDION */
+
+  .accordion-item { 
+
+    background:#111; 
+
+    margin-bottom:10px; 
+
+    border-radius:6px; 
+
+    overflow:hidden; 
+
+  }
+
+  .accordion-header {
+
+    width:100%; 
+
+    text-align:left; 
+
+    padding:14px 20px; 
+
+    cursor:pointer; 
+
+    font-family:'Cinzel', serif;
+
+    font-size:16px;
+
+    background:#222; 
+
+    color:#4cc9f0; 
+
+    border:none; 
+
+    outline:none; 
+
+    transition:0.3s;
+
+  }
+
+  .accordion-header:hover { background:#333; }
+
+  .accordion-body { 
+
+    padding:0 20px 14px 20px; 
+
+    max-height:0; 
+
+    overflow:hidden; 
+
+    transition:max-height 0.3s ease; 
+
+    font-size:14px;
+
+    line-height:1.5;
+
+  }
+
+  /* RESPONSIVE */
+
+  @media(max-width:600px){
+
+    h2 { font-size:24px; }
+
+    .accordion-header { font-size:14px; }
+
+    .accordion-body { font-size:13px; }
+
+    nav { gap:15px; padding:10px 0; }
+
+  }
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+  <nav>
+
+  <a href="#home">Home</a>
+
+  <a href="#rules">Rules</a>
+
+  <a href="#highcouncil">High Council</a>
+
+  <a href="#ranks">Ranks</a>
+
+</nav>
+
+<h2>In-Game Laws</h2>
+
+  <div class="accordion">
+
+    <!-- Law 1 -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Law of Unity</button>
+
+      <div class="accordion-body">
+
+        Members are not permitted to attack or kill another clan member on the Jedi Order Legacy team. Your lightsaber should be used to attack unauthorised or raiding hostiles.<br><br>
+
+        Members are not permitted to use your lightsaber as a means of an in-game threat towards other clan members.<br><br>
+
+        Exceptions:<br>
+
+        - Temple Guard killing unauthorised clan members across the yellow, red or purple lines.<br>
+
+        - Moderators killing people crowding a moderation scene after they have been warned to disperse.<br>
+
+        - High Ranks killing someone for a valid reason.
+
+      </div>
+
+    </div>
+
+    <!-- Law 2 -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Law of Civility</button>
+
+      <div class="accordion-body">
+
+        Use polite and respectful language towards other members. Disrespect and offensive or insulting language is not allowed.<br><br>
+
+        Treat all members with courtesy and respect, regardless of personal opinions or rank.<br><br>
+
+        Members should always be held accountable for their actions. We want to create a feeling of responsibility and safety within the community.<br><br>
+
+        Members using the Jedi Order Legacy tag in-game must not t-bag / ro-bag any other user.<br><br>
+
+        Members must always follow the Roblox TOS while in-game.
+
+      </div>
+
+    </div>
+
+    <!-- Law 3 -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Law of Integrity</button>
+
+      <div class="accordion-body">
+
+        The use of cheats, hacks, or exploits is strictly prohibited.<br><br>
+
+        You must not take advantage of bugs or glitches in-game. The use of an unintended in-game glitch to give yourself an unfair advantage over other users is prohibited.<br><br>
+
+        Use of third-party software is prohibited while in-game.<br><br>
+
+        Use of an alt account to evade moderation actions taken on one of your accounts it prohibited.
+
+      </div>
+
+    </div>
+
+    <!-- Law 4 -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Law of Preservation</button>
+
+      <div class="accordion-body">
+
+        Clan members are not allowed to use a red lightsaber when using the Jedi Order Legacy clan tag.<br><br>
+
+        Members must not wear any attire that resembles the Sith in any way.<br><br>
+
+        Members should note, Sith are not allowed within the temple and The Sith Eclipse is Kill on Sight.<br><br>
+
+        Using your lightsaber to attack innocent or peaceful hostiles in the temple is not allowed.<br><br>
+
+        Hostiles may not interrupt or kill any attendees in an event, training or trial.<br>
+
+        - Hostiles should note, punishment will vary on; how many people were killed, if the user had clear intentions and the size of the event.
+
+      </div>
+
+    </div>
+
+    <!-- Law 5 -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Law of Access</button>
+
+      <div class="accordion-body">
+
+        Members are not permitted to cross the yellow, red or purple lines in front of the council chambers without permission.<br><br>
+
+        Members are not permitted to enter the holding cells unless their rank or authorisation permits it.<br><br>
+
+        Members are not permitted to sit on the council chairs located in the council chambers. Reserved for Jedi Council members.<br><br>
+
+        You can find all permitted ranks in the Temple Access card.
+
+      </div>
+
+    </div>
+
+    <!-- Law 6 -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Law of Vigilance</button>
+
+      <div class="accordion-body">
+
+        Members are urged to report any violations they see within the clan.<br>
+
+        Anything that breaks Clan or NWG rules should be reported with proof through the proper means.<br>
+
+        Members are also urged to let moderators know of any violations.
+
+      </div>
+
+    </div>
+
+    <!-- Law 7 -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Law of Balance</button>
+
+      <div class="accordion-body">
+
+        Abuse of any sort of admin powers while in game is not allowed. Moderators are not to use their powers in an abusive or unfair way.<br>
+
+        Abuse of Btools while in-game is strictly prohibited.<br>
+
+        Moderators should always follow the punishment index and moderation handbook.<br>
+
+        Bans should be logged in the appropriate place.<br>
+
+        Admin commands are not to be used by moderators unless absolutely necessary.<br>
+
+        Moderators dealing with tickets should always ask if the user who opened the ticket is finished.<br>
+
+        Any member with in-game admin powers is not to use a command on a user without proper reason, abuse, or gain unfair leverage.
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- DISCORD RULES -->
+
+  <h2 style="margin-top:40px;">Discord Rules</h2>
+
+  <div class="accordion">
+
+    <!-- Rule 1: Respect -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Respect</button>
+
+      <div class="accordion-body">
+
+        Treat all members with courtesy and respect, regardless of personal opinions or rank.<br><br>
+
+        Disrespect is not permitted within the clan.
+
+      </div>
+
+    </div>
+
+    <!-- Rule 2: Discrimination and Hate Speech -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Discrimination and Hate Speech</button>
+
+      <div class="accordion-body">
+
+        Members are not to engage in hate speech or any form of discrimination based on race, religion preference, or sexuality.
+
+      </div>
+
+    </div>
+
+    <!-- Rule 3: Harassment -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Harassment</button>
+
+      <div class="accordion-body">
+
+        Do not engage in actions that could be considered harassment, including threats, doxxing, or any behaviour intended to intimidate or upset others.
+
+      </div>
+
+    </div>
+
+    <!-- Rule 4: NSFW Content -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">NSFW Content</button>
+
+      <div class="accordion-body">
+
+        Sending any explicit or inappropriate content (NSFW) within any of Jedi Order Legacy owned servers is strictly prohibited.<br><br>
+
+        If you think what you're about to send may be NSFW; chances are it is and don't send it.
+
+      </div>
+
+    </div>
+
+    <!-- Rule 5: Content Specific -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Content Specific</button>
+
+      <div class="accordion-body">
+
+        Members should not send excessive messages, flooding channels with irrelevant content, or using excessive pings.<br><br>
+
+        Do not promote other servers, products, or services without direct and clear permission from the Grandmaster and above.<br><br>
+
+        No Illegal Content: Do not share or distribute illegal content, including illegal drugs, counterfeit items, or stolen financial information.<br><br>
+
+        No Threats: Do not make threats of violence or harm towards other members.<br><br>
+
+        No Doxing: Do not share or threaten to share someone's personal information at all.
+
+      </div>
+
+    </div>
+
+    <!-- Rule 6: Channel Specific -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Channel Specific</button>
+
+      <div class="accordion-body">
+
+        When using a channel, members must:<br>
+
+        - Follow Channel Guidelines: Adhere to the specific rules for each channel, including topic restrictions and permitted content.<br>
+
+        - Be mindful of background noise and avoid excessive talking or disruptions in voice channels.<br>
+
+        - Never play NSFW sounds or music in voice channels.<br>
+
+        - Never impersonate other users, especially High Ranking members.<br>
+
+        - Follow Discord's Terms of Service and Community Guidelines: Adhere to Discord's official rules and guidelines.
+
+      </div>
+
+    </div>
+
+    <!-- Rule 7: Abuse of Power -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Abuse of Power</button>
+
+      <div class="accordion-body">
+
+        Any member with moderation powers is not to use a command on a user without proper reason, abuse their admin, or try to gain unfair leverage.<br><br>
+
+        Moderators should always follow the punishment index and moderation handbook when acting on a user who has breached clan rules.<br><br>
+
+        Moderators are not to use warn, mute, kick, or ban commands without valid reason.<br><br>
+
+        Deleting moderation logs or ticket transcripts in secret or without authorisation is strictly prohibited.
+
+      </div>
+
+    </div>
+
+  </div>
+
+    <!-- ===== PUNISHMENT INDEX ===== -->
+
+
+
+  <h2>Punishment Index</h2>
+
+  <div class="accordion">
+
+    <!-- In-Game Punishment Index -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">In-Game Punishment Index</button>
+
+      <div class="accordion-body">
+
+        <strong>Minor Infractions</strong><br>
+
+        Examples: Spam, mild disrespect, minor trolling, inappropriate usernames. (Additionally anything else not listed here that is in the Jedi Order Legacy Offense Sheet Doc within the “Minor Infractions” area.)<br><br>
+
+        <strong>Actions:</strong><br>
+
+        First Offense: Verbal warning.<br>
+
+        Second Offense: Timeout (Discord: mute 10-30 minutes, Game: verbal warning - if continued a game kick).<br>
+
+        Third Offense: Temporary mute (1 hour+), or temp game ban (12-24 hours).<br>
+
+        Document repeat offenders in both the Moderation server and the Jedi Order Legacy server for pattern tracking.<br><br>
+
+        <strong>Major Infractions</strong><br>
+
+        Examples: Mass Team Kill, Threatening, Map Abuse, continuous Interruption of training, Ban Evasion, Hacking, Admin Abuse, Doxxing, Slander in any form, Severe Toxicity, Impersonation of any High Ranks within JOL in order to gain access to restricted areas, NSFW, Freeranking, Raiding Jedi Order Legacy Temple while attaining a High rank within Jedi Order Legacy, Blackmailing. <strong>All punishments for these (apart from Doxxing in any capacity, hacking, discrimination in any capacity, severe toxicity, slandering in any form - these are all permanent bans) are individual and it is mandatory you educate yourself on each rule before administering punishments onto any user.</strong><br><br>
+
+        <strong>Actions:</strong><br>
+
+        First Offense: Immediate ban corresponding to the correct punishment within Jedi Order Legacy Offense Sheet Doc. (And then document the incident using the format within "Documentation and Reporting" accurately).<br>
+
+        Second Offense of any temporary bans after they have been banned for a temporary major offense violation already - 20 day ban.<br>
+
+        Third Offense - Permanent ban. (Log the situation with the "Documentation and Reporting" format below accurately).<br>
+
+        If doxxing or real-life threats occur, report to Discord Trust & Safety and permanently after permanently banning the perpetrator. (Log situation with the format below accurately)
+
+      </div>
+
+    </div>
+
+    <!-- Discord Punishment Index -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Discord Punishment Index</button>
+
+      <div class="accordion-body">
+
+        <strong>Level 1 — Minor Offences</strong><br>
+
+        Examples include spam, minor trolling, off-topic behavior, or mild disrespect.<br>
+
+        First Offense: Verbal warning.<br>
+
+        Second Offense: Temporary Mute (10 Minutes) / Kick from the game.<br>
+
+        Third Offense: 1 day ban (Coming back after a kick and continuing to break the rules).<br><br>
+
+        <strong>Level 2 — Major Offences (Non-Permanent)</strong><br>
+
+        Examples include harassment, filter bypassing, targeted toxicity, impersonation (non-malicious), repeated minor offenses.<br>
+
+        First Offense: Punishment corresponding to their offense.<br>
+
+        Second Offense: 20 day ban.<br>
+
+        Third Offense: Permanent ban.<br><br>
+
+        <strong>Level 3 — Critical Offences</strong><br>
+
+        (This excludes hacking, NSFW, Doxxing, discrimination in any regard)<br>
+
+        First Offense: 3-7 Day Ban.<br>
+
+        Second Offense: Permanent Ban Review.
+
+      </div>
+
+    </div>
+
+    <!-- Punishment Information -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Punishment Information</button>
+
+      <div class="accordion-body">
+
+        The Punishment Index outlines offences in-game and in the discord, and how they should be punished.<br>
+
+        This is for members to understand how they should be moderated if they break a rule.<br><br>
+
+        <strong>Punishment can include, but are not limited to:</strong><br>
+
+        <em>In-Game:</em><br>
+
+        - One or multiple warnings given to the member.<br>
+
+        - Kick from the server.<br>
+
+        - Temporary server ban.<br>
+
+        - Permanent server ban.<br><br>
+
+        <em>Discord:</em><br>
+
+        - One or multiple warnings given to the member.<br>
+
+        - Server mute.<br>
+
+        - Pathway blacklists.<br>
+
+        - Kick from the server.<br>
+
+        - Temporary server ban.<br>
+
+        - Permanent server ban.
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+    <!-- ===== TEMPLE ACCESS ===== -->
+
+
+
+  <h2>Temple Access</h2>
+
+  <div class="accordion">
+
+    <!-- 1. Purple/Red/White Lines -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Line Authorisations</button>
+
+      <div class="accordion-body">
+
+        <strong>Purple Line Authorisation</strong><br>
+
+        <em>RANKS ALLOWED TO PASS PURPLE:</em><br>
+
+        Council members,<br>
+
+        Council Guard on duty,<br>
+
+        Temple Guard Captain on duty,<br>
+
+        Guest of high council members.<br>
+
+        <hr>
+
+        <strong>Red Line Authorisation</strong><br>
+
+        <em>RANKS ALLOWED TO PASS RED:</em><br>
+
+        ANY High Ranking member,<br>
+
+        Temple Guard / Honour Guard on duty,<br>
+
+        Jedi Intelligence members.<br>
+
+        <hr>
+
+        <strong>White/Disperse Line Authorisation</strong><br>
+
+        <em>RANKS ALLOWED TO PASS WHITE:</em><br>
+
+        ANY Pathway rank+<br>
+
+        However, temple guard may request any user who does not have Red Line Authorisation to disperse if it becomes crowded.
+
+      </div>
+
+    </div>
+
+    <!-- 2. Jail Access -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Jail Access</button>
+
+      <div class="accordion-body">
+
+        <em>RANKS ALLOWED TO PASS INTO THE HOLDING CELLS:</em><br>
+
+        Council members,<br>
+
+        Honour Guard / Council Guard on duty,<br>
+
+        Temple Guard Captain on duty,<br>
+
+        Temple Guard Lieutenant on duty,<br>
+
+        Jedi Intelligence members.
+
+      </div>
+
+    </div>
+
+    <!-- 3. Hostile Access -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Hostile Access</button>
+
+      <div class="accordion-body">
+
+        <em>RANKS ALLOWED TO CROSS LINES ON THE HOSTILE TEAM:</em><br>
+
+        Liggikl1  (Head Councillor)<br>
+
+        TheGamingEssence_Sam (Master of the Order)<br>
+
+        Mr_Wabbitt0 (Grandmaster)<br>
+
+        Guests of Council members<br>
+
+        Allied Council/SHR members - Yellow and Red lines. (Purple for meetings.)
+
+      </div>
+
+    </div>
+
+    <!-- 4. Line Permissions -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Line Permissions</button>
+
+      <div class="accordion-body">
+
+        <strong>Purple Line Authorisation</strong><br>
+
+        <em>RANKS ALLOWED TO PASS PURPLE:</em><br>
+
+        Council members,<br>
+
+        Council Guard on duty,<br>
+
+        Temple Guard Captain on duty,<br>
+
+        Guest of high council members.<br>
+
+        <hr>
+
+        <strong>Red Line Authorisation</strong><br>
+
+        
+
+          <em>RANKS ALLOWED TO PASS RED:</em><br>
+
+        ANY High Ranking member,<br>
+
+        Honour Guard / Council Guard on duty,<br>
+
+        Jedi Intelligence members.
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+    <!-- ===== INFORMATION ===== -->
+
+
+
+  <h2>Information</h2>
+
+  <div class="accordion">
+
+    <!-- 1. Jedi High Council -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Jedi High Council</button>
+
+      <div class="accordion-body">
+
+        <strong>What is the Jedi High Council?</strong><br>
+
+        The Jedi High Council is a group of six members who make critical choices for the clan. They sit at the top of the clan, serving the community. Each Jedi High Council member has a position in overseeing a pathway or clan ranks.<br><br>
+
+        <strong>How do I become a Jedi High Council member?</strong><br>
+
+        To become a Jedi High Council member is a long and rewarding process. First, you must complete an application sent out when a spot on the council is open. If you then pass said application, you will be placed on a clan and high rank vote. The top people in those two votes will then be voted on by the community in a final voting process.<br><br>
+
+        <strong>Jedi High Council Ranks:</strong><br>
+
+        - Shadow Oversight<br>
+
+        - Temple Guard Oversight<br>
+
+        - Instructor Oversight<br>
+
+        - Intelligence Oversight<br>
+
+        - Low Rank Oversight<br><br>
+
+        <strong>Head Councillor:</strong> Liggikl1<br>
+
+        <strong>Master of the Order:</strong> TheGamingEssence_Sam<br>
+
+        <strong>Grandmaster:</strong> Mr_Wabbitt0
+
+      </div>
+
+    </div>
+
+    <!-- 2. Jedi Intelligence -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Jedi Intelligence</button>
+
+      <div class="accordion-body">
+
+        <strong>What is Jedi Intelligence?</strong><br>
+
+        The Jedi Intelligence pathway is specialised in security, moderation and oversight within the clan. They are responsible for in-game and discord moderation, handling reports and tickets, logging moderation actions and acting on users breaking our clan rules.<br><br>
+
+        <strong>How do I become a Jedi Intelligence member?</strong><br>
+
+        Applications will be bi-weekly (every 2 weeks), and selections will be hosted in game from time to time.<br><br>
+
+        <strong>Pathway Ranks:</strong><br>
+
+        - Junior Investigator<br>
+
+        - Jedi Investigator<br>
+
+        - Senior Investigator<br>
+
+        - Jedi Prosecutor<br>
+
+        - Jedi Adjudicator<br><br>
+
+        <strong>Director:</strong> VoidStalker JI<br>
+
+        <strong>Overseer:</strong> Socrates
+
+      </div>
+
+    </div>
+
+    <!-- 3. Shadows -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Shadows</button>
+
+      <div class="accordion-body">
+
+        <strong>What is the Shadow Pathway?</strong><br>
+
+        The Shadow Pathway are an elite group of warriors within the clan. They are responsible for guarding the main gates, hosting team trainings and taking part in special raids. The Shadow pathway is always combat ready and expected to have enhanced combat abilities.<br><br>
+
+        <strong>How do I join?</strong><br>
+
+        First, join the Shadow Pathway communications server. Go to “boarding-process” follow the format, and wait to be accepted. Then wait for a Shadow Trial to be announced and pass to become a Shadow.<br><br>
+
+        <strong>Shadow Ranks:</strong><br>
+
+        - Shadow Initiate<br>
+
+        - Shadow Knight<br>
+
+        - Shadow Assassin<br>
+
+        - Shadow Reaper<br>
+
+        - Shadow Prince<br><br>
+
+        <strong>Shadow Master:</strong> sensei<br>
+
+        <strong>Shadow Advisor:</strong> Head Councillor, TheGamingEssence_Sam<br>
+
+        <strong>Shadow Oversight:</strong> Jedi High Councillor, Chamba
+
+      </div>
+
+    </div>
+
+    <!-- 4. Instructors -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Instructors</button>
+
+      <div class="accordion-body">
+
+        <strong>What is the Instructor Pathway?</strong><br>
+
+        The Instructors are a group of Jedi who have chosen to educate and teach low ranking Jedi. They are responsible for hosting trainings for the low ranking members so that they can rank up to Jedi Knight, ready to join a pathway. Members of this pathway are expected to announce, host and log trainings for the clan members.<br><br>
+
+        <strong>How do I become an Instructor?</strong><br>
+
+        To become an Instructor, you must join their communications server and attend a trial, passing will allow you to join their ranks.<br><br>
+
+        <strong>Instructor Ranks:</strong><br>
+
+        - Lightsaber Instructor<br>
+
+        - Senior Instructor<br>
+
+        - Master-at-Arms<br>
+
+        - Swordkeeper
+
+      </div>
+
+    </div>
+
+    <!-- 5. Temple Guard -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Temple Guard</button>
+
+      <div class="accordion-body">
+
+        <strong>What is the Temple Guard Pathway?</strong><br>
+
+        The Temple Guards are the people who are tasked with guarding key locations within the temple, and protecting the temple from raids and hostiles. They have a very important duty as they defend the temple from threats and the Council Chambers and Jedi Jails / Holding Cells from any intruders. They are an elite pathway who are tasked with a great responsibility of protection and safe-guarding.<br><br>
+
+        <strong>How can I become a Temple Guard?</strong><br>
+
+        Join their communications server, attend a trial hosted by a high ranking Temple Guard and pass to join their ranks. Be prepared to follow strict orders, maintain discipline and defend the temple.<br><br>
+
+        <strong>Temple Guard Ranks:</strong><br>
+
+        - Temple Guard<br>
+
+        - Temple Guard Sergeant<br>
+
+        - Honour Guard<br>
+
+        - Council Guard<br>
+
+        - Temple Guard Lieutenant<br>
+
+        - Temple Guard Captain<br><br>
+
+        <strong>Chief of Security:</strong> Bok1<br>
+
+        <strong>Co-overseer:</strong> Harry<br>
+
+        <strong>Temple Guard Oversight:</strong> Jedi High Council, stuux
+
+      </div>
+
+    </div>
+
+    <!-- 6. Masters -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">The Senate</button>
+
+      <div class="accordion-body">
+
+      </div>
+
+    </div>
+
+    <!-- 7. Masters -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Masters</button>
+
+      <div class="accordion-body">
+
+      </div>
+
+    </div>
+
+    <!-- 8. Low Ranks -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Low Ranks</button>
+
+      <div class="accordion-body">
+
+      </div>
+
+    </div>
+
+  </div> 
+  <br>
+  
+  <h2>Raiding and Defence Guide</h2>
+  <div class="accordion">
+    <div class="accordion-item">
+      <button class="accordion-header">Raid Laws</button>
+      
+      <div class="accordion-body">
+        <strong>Clause 1 - Map Abuse</strong><br>
+        <br>
+        Map abuse is prohibited for the raiding and defending party.
+
+Areas that are considered map abuse in the Jedi Order Legacy Temple during raids:
+
+<br> - Water surrounding spawn.
+
+<br> - The hole above spawn.
+
+<br> - Any out-of-bounds areas in the map.
+
+<br> *Users with access to building tools (Btools) may use them to block these areas during or before raids.
+      <br>  
+        <br>
+        <strong>Clause 2 - Spawn Camping:</strong><br>
+      <br>  The defending and raiding party are not allowed to spawn camp. This means that a single person and/or group of people using the enemy spawn to continue to kill them - giving an unfair advantage to one side.
+
+If a specific clan has raiding and spawn camped before, and has repeated doing so, they themselves may be spawn camped when raided by Jedi Order Legacy.
+        <br>
+        <br>
+  <strong>Clause 3 - Mutual respect:</strong>
+        <br>
+        <br>
+        When raiding or defending, people with the Jedi Order Legacy clan are expected to fight with honour and not making toxic or unlawful comments against the other party.
+
+Jedi Order Legacy are to raid and defend in accordance to the Law of Civility under In-game Laws.
+
+Making the sparce comment against the other party during a raid is allowed, it is the over or extreme use of such negative comments that we do not tolerate.
+        <br>
+        <br>
+        <strong>Clause 4 - Use of Admin</strong
+          <br>
+          <br>
+          During a raid, admin is not allowed unless it is for a lawful reason.
+
+<br> <strong>For example:</strong>
+
+<br>- Moderating an Exploiter
+
+<br> - Using building tools (Btools) to block areas that count as map abuse.
+
+<br> - Moderating a user who is breaking our raiding laws.
+
+<br> - Using commands on yourself if spectating and the target if moderating.
+          </div>
+        </div>
+      </div>
+
+
+
+<script>
+
+  // Accordion JS
+
+  const headers = document.querySelectorAll('.accordion-header');
+
+  headers.forEach(header => {
+
+    header.addEventListener('click', () => {
+
+      const body = header.nextElementSibling;
+
+      if(body.style.maxHeight){
+
+        body.style.maxHeight = null;
+
+      } else {
+
+        document.querySelectorAll('.accordion-body').forEach(b => b.style.maxHeight = null);
+
+        body.style.maxHeight = body.scrollHeight + "px";
+
+      }
+
+    });
+
+  });
+
+</script>
+
+    </section>
+  
+  <section id="highcouncil" class="section">
+    <nav>
+
+<a href="#home">Home</a>
+
+<a href="#rules">Rules</a>
+
+<a href="#highcouncil">High Council</a>
+
+<a href="#ranks">Ranks</a>
+
+</nav>
+
+  <h2>HIGH COUNCIL</h2>
+
+  <p class="section-sub">
+
+    Members of the Jedi High Council and leadership of the Order.
+
+  </p>
+
+  <div class="council-grid" id="councilGrid">
+
+    <article class="council-card">
+
+      <div class="council-top">
+
+        <div class="council-avatar" aria-hidden="true">MW</div>
+
+        <div class="council-meta">
+
+          <h3 class="council-name">Mr_Wabbitto <span class="council-nick">(Wabbit)</span></h3>
+
+          <p class="council-role">Grandmaster</p>
+
+        </div>
+
+      </div>
+
+      <div class="council-divider"></div>
+
+      <ul class="council-tags">
+
+        <li>Clan Leadership</li>
+
+      </ul>
+
+    </article>
+
+    <article class="council-card">
+
+      <div class="council-top">
+
+        <div class="council-avatar" aria-hidden="true">TS</div>
+
+        <div class="council-meta">
+
+          <h3 class="council-name">TheGamingEssence_Sam <span class="council-nick">(Sam)</span></h3>
+
+          <p class="council-role">Master of the order</p>
+
+        </div>
+
+      </div>
+
+      <div class="council-divider"></div>
+
+      <ul class="council-tags">
+
+        <li>Clan Leadership</li>
+
+      </ul>
+
+    </article>
+
+    <article class="council-card">
+
+      <div class="council-top">
+
+        <div class="council-avatar" aria-hidden="true">CH</div>
+
+        <div class="council-meta">
+
+          <h3 class="council-name">Chamba <span class="council-nick">(chamba)</span></h3>
+
+          <p class="council-role">Jedi High Council</p>
+
+        </div>
+
+      </div>
+
+      <div class="council-divider"></div>
+
+      <ul class="council-tags">
+
+        <li>High Council Member</li>
+
+      </ul>
+
+    </article>
+
+    <article class="council-card">
+
+      <div class="council-top">
+
+        <div class="council-avatar" aria-hidden="true">ST</div>
+
+        <div class="council-meta">
+
+          <h3 class="council-name">Stuux <span class="council-nick">(Stuux)</span></h3>
+
+          <p class="council-role">Jedi High Council</p>
+
+        </div>
+
+      </div>
+
+      <div class="council-divider"></div>
+
+      <ul class="council-tags">
+
+        <li>High Council Member</li>
+
+      </ul>
+
+    </article>
+
+    <article class="council-card">
+
+      <div class="council-top">
+
+        <div class="council-avatar" aria-hidden="true">BW</div>
+
+        <div class="council-meta">
+
+          <h3 class="council-name">BloopWaves <span class="council-nick">(slayer)</span></h3>
+
+          <p class="council-role">Jedi High Council</p>
+
+        </div>
+
+      </div>
+
+      <div class="council-divider"></div>
+
+      <ul class="council-tags">
+
+        <li>High Council Member</li>
+
+      </ul>
+
+    </article>
+
+    <article class="council-card">
+
+      <div class="council-top">
+
+        <div class="council-avatar" aria-hidden="true">DH</div>
+
+        <div class="council-meta">
+
+          <h3 class="council-name">Dankopanko <span class="council-nick">(Harry)</span></h3>
+
+          <p class="council-role">Jedi High Council</p>
+
+        </div>
+
+      </div>
+
+      <div class="council-divider"></div>
+
+      <ul class="council-tags">
+
+        <li>High Council Member</li>
+
+      </ul>
+
+    </article>
+
+    <article class="council-card">
+
+      <div class="council-top">
+
+        <div class="council-avatar" aria-hidden="true">LS</div>
+
+        <div class="council-meta">
+
+          <h3 class="council-name">Lukyn <span class="council-nick">(Socrates)</span></h3>
+
+          <p class="council-role">Jedi High Council</p>
+
+        </div>
+
+      </div>
+
+      <div class="council-divider"></div>
+
+      <ul class="council-tags">
+
+        <li>High Council Member</li>
+
+      </ul>
+
+    </article>
+
+    <article class="council-card">
+
+      <div class="council-top">
+
+        <div class="council-avatar" aria-hidden="true">TJ</div>
+
+        <div class="council-meta">
+
+          <h3 class="council-name">TheRealJesis <span class="council-nick">(Jesis)</span></h3>
+
+          <p class="council-role">Jedi High Council</p>
+
+        </div>
+
+      </div>
+
+      <div class="council-divider"></div>
+
+      <ul class="council-tags">
+
+        <li>High Council Member</li>
+
+      </ul>
+
+    </article>
+
+    <article class="council-card">
+
+      <div class="council-top">
+
+        <div class="council-avatar" aria-hidden="true">LK</div>
+
+        <div class="council-meta">
+
+          <h3 class="council-name">liggik1 <span class="council-nick">(Liggik)</span></h3>
+
+          <p class="council-role">Jedi High Council</p>
+
+        </div>
+
+      </div>
+
+      <div class="council-divider"></div>
+
+      <ul class="council-tags">
+
+        <li>High Council Member</li>
+
+      </ul>
+
+    </article>
+
+  </div>
+
+</section>
+  <section id="ranks" class="section">
+    <nav>
+
+<a href="#home">Home</a>
+
+<a href="#rules">Rules</a>
+
+<a href="#highcouncil">High Council</a>
+
+<a href="#ranks">Ranks</a>
+
+</nav>
+    <br>
+    <br>
+
+  <h2>RANKS</h2>
+
+  <p class="section-sub">
+
+    Learn about the different ranks in the Jedi Order and their responsibilities.
+
+  </p>
+   <br> 
+<h1>HIGH RANKS</h1>
+    <br>
+  <div class="accordion">
+
+    <!-- Grandmaster -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Grandmaster</button>
+
+      <div class="accordion-content">
+
+        <p><strong>Responsibilities:</strong> The leader of the Order. Responsible for the whole clan, its high ranks, pathways and low ranks. Makes the final decisions and ensures balance and unity.</p>
+
+        <p><strong>How To Obtain:</strong> Elected by the members of JOL or chosen by the Owner.</p>
+
+      </div>
+
+    </div>
+
+    <!-- Master Of The Order -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Master Of The Order</button>
+
+      <div class="accordion-content">
+
+        <p><strong>Responsibilities:</strong> The Master Of The Order is second in command. They assist in leading JOL, oversee the High Council, and maintain order.</p>
+
+        <p><strong>How To Obtain:</strong> Chosen by the Grandmaster.</p>
+
+      </div>
+
+    </div>
+
+    <!-- Head Councillor -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Head Councillor</button>
+
+      <div class="accordion-content">
+
+        <p><strong>Responsibilities:</strong> Leader of the council. Responsible for all council members and resolving issues within the council. Manages alliances along with the Master Of The Order and Grandmaster.</p>
+
+        <p><strong>How To Obtain:</strong> Hand picked by the Grandmaster.</p>
+
+      </div>
+
+    </div>
+
+    <!-- Jedi High Council -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Jedi High Council</button>
+
+      <div class="accordion-content">
+
+        <img src="https://i.imgur.com/rcB8d6X.jpeg" alt="Jedi High Council" class="rank-img"> <h5>~ Peace is our watch, balance our duty.</h5> <h3>HARRY</h3>
+
+        <p><strong>Responsibilities:</strong> Overseers for a pathway or high rank. Host JOL-wide events, manage training programs, and co-lead the order. May oversee a pathway, sub-pathway, or special duties.</p>
+
+        <p><strong>How To Obtain:</strong> Hand picked by the Grandmaster.</p>
+
+      </div>
+
+    </div>
+
+    <!-- Jedi Council -->
+
+    <div class="accordion-item">
+
+      <button class="accordion-header">Jedi Council</button>
+
+      <div class="accordion-content">
+
+        <p><strong>Responsibilities:</strong> First in command of their pathway. Responsible for leading events and managing everything within the pathway.</p>
+
+        <p><strong>How To Obtain:</strong> Completing your pathway and becoming the leader.</p>
+        
+
+      </div>
+
+    </div>
+    <h1>MIDDLE RANKS</h1>
+    <br>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Jedi Master</button>
+
+  <div class="accordion-content">
+
+    <img class="rank-img" src="https://i.imgur.com/FLvqW8t.png" alt="Jedi Master">
+
+    <p><strong>Responsibilities:</strong> A Jedi Master has completed the Advanced Jedi Knight trials and achieved mastery in combat, the Force, and Jedi teachings. They serve as mentors to Knights and Padawans, guiding the Order and maintaining its principles.</p>
+
+    <p><strong>How To Obtain:</strong> Promoted after successfully completing the Advanced Jedi Knight trials and demonstrating exceptional skill, wisdom, and leadership.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Force Ghost</button>
+
+  <div class="accordion-content">
+
+    <img class="rank-img" src="https://i.imgur.com/21eUvEl.png" alt="Force Ghost">
+
+    <p><strong>Responsibilities:</strong> Jedi who have passed from the physical realm but continue to serve the Order through their enduring presence and guidance. Their wisdom and teachings echo throughout the Jedi Order Legacy.</p>
+
+    <p><strong>How To Obtain:</strong> Attained after serving the Jedi Order with distinction and passing beyond the material realm, leaving a lasting legacy.</p>
+
+  </div>
+
+</div>
+<div class="accordion-item">
+
+  <button class="accordion-header">Supreme Chancellor</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Leader of the Senate pathway. Responsible for overseeing all senatorial operations, maintaining internal stability, and guiding the political direction of the pathway.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Vice Chancellor</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Second in command of the Senate pathway. Ensures executive continuity, enforces discipline, and supports leadership to maintain strong and unified governance.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">High Senator</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Oversees internal order, discipline, and political clarity within the Temple. Guides Senators, enforces internal law, and safeguards balance within the Senate.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Senator</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Responsible for maintaining internal order, structure, and clarity within the Temple. Focuses solely on internal affairs and supports the stability of the Senate.</p>
+
+    <p><strong>How To Obtain:</strong> Completing a Senator Application.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Director</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Leader of the Jedi Intelligence pathway. Responsible for ensuring that all laws are enforced and respected across the Order.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Adjudicator</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Second in command of the Jedi Intelligence pathway. Responsible for training new Investigators, ensuring rules are followed, and maintaining internal discipline.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Prosecutor</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Responsible for pathway event management, activity oversight, fairness, and providing support to both pathway members and JOL as a whole.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Senior Investigator</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Ensures JOL laws are upheld and handles violations on the spot when necessary. Responsible for collecting evidence, recording cases, and submitting all documentation to moderation logs.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Investigator</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Ensures that all JOL server laws are followed and investigates any violations by collecting and recording evidence.</p>
+
+    <p><strong>How To Obtain:</strong> Completing an Investigator Application.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Master of Knowledge</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Leads the Librarian pathway and oversees the teaching and preservation of knowledge across the Order.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Lorekeeper</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Teaches members how to create holocrons and develops creative works such as GFX, BTOOLS projects, and pathway propaganda.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Archivist</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Creates GFX, learns how to use BTOOLS, and produces pathway propaganda to support the Librarian division.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Librarian</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Creates holocrons, builds lore around JOL, and spreads knowledge throughout the Order.</p>
+
+    <p><strong>How To Obtain:</strong> Completing a Librarian Application.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Master of Shadows</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Leader of the Shadows pathway. Highly skilled in combat and responsible for issuing commands during raids and defensive operations.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Shadow Reaper</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Assists the Master of Shadows in leadership duties by coordinating and guiding the pathway. Responsible for trialing and evaluating new members entering the Shadows.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Shadow Sentinel</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Acts as the strategic backbone of the Shadows pathway. Responsible for maintaining formation discipline, supporting raid leadership, and ensuring operational readiness during missions.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Shadow Assassin</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Front-line combatants during raids who carry out missions assigned by the Master of Shadows and Shadow Reaper. Highly trained in raid tactics, etiquette, and countering all saber styles.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Shadow Warrior</button>
+
+  <div class="accordion-content">
+
+    <img class="rank-img" src="https://i.imgur.com/yGCsNBk.png" alt="Shadow Warrior">
+
+    <p><strong>Responsibilities:</strong> Shadow Warriors focus on rule enforcement and education within the Shadows pathway rather than standard guardian or patrolling practices.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Shadow Initiate</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Entry-level member of the Shadows pathway undergoing training and evaluation.</p>
+
+    <p><strong>How To Obtain:</strong> Completing a Shadow Trial.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Battlemaster</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> First in command of the Instructor pathway. Responsible for running the pathway and ensuring all activities are organized.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">SwordKeeper</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Trials low ranks, guides and assists members in combat and rules, completes Instructor Trials, and supports the Battlemaster.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Master At Arms</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Trials low ranks, guides and helps members in combat and rules, and completes Instructor Trials.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Senior Instructor</button>
+
+  <div class="accordion-content">
+
+    <img class="rank-img" src="https://i.imgur.com/xpJs8Pk.png" alt="Senior Instructor">
+
+    <p><strong>Responsibilities:</strong> Trials low ranks, guides and assists members in combat and rules, ensuring proper learning and discipline within the pathway.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Lightsaber Instructor</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Trials low ranks, guides and assists members in combat and rules, focusing on lightsaber training and mastery.</p>
+
+    <p><strong>How To Obtain:</strong> Completing an Instructor Trial.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Chief of Security</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Responsible for overseeing the security and defense of the Order. Leads the Temple Guards and other ranks, ensuring that all sacred locations, including the Jedi Temple and Council Chambers, remain protected. Directs security protocols during times of crisis and defends against raids. Serves as the highest authority on internal security matters.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Temple Guard Captain</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Assists the Chief of Security with leadership duties. Coordinates and leads the pathway and trials new members entering the Temple Guards.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Temple Guard Lieutenant</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Hosts events and assists the Temple Guard Captain in leading the pathway and training members.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Temple Guard Sergeant</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Defender of the Jedi Temple and its Sacred Grounds. Organizes TG formations and leads fellow Temple Guards in daily duties and operations.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Council Guard</button>
+
+  <div class="accordion-content">
+
+    <img class="rank-img" src="https://i.imgur.com/UYf96Cl.png" alt="Council Guard">
+
+    <p><strong>Responsibilities:</strong> Holds the highest responsibility of guarding the Council Chambers and protecting Council members.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Honour Guard</button>
+
+  <div class="accordion-content">
+
+    <img class="rank-img" src="https://i.imgur.com/dHxD4Ap.png" alt="Honour Guard">
+
+    <p><strong>Responsibilities:</strong> Guards the main hallway leading to the Council Room, ensuring the safety and decorum of the area.</p>
+
+    <p><strong>How To Obtain:</strong> Progressing through the pathway to obtain.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Temple Guard</button>
+
+  <div class="accordion-content">
+
+    <img class="rank-img" src="https://i.imgur.com/jytRe4g.png" alt="Temple Guard">
+
+    <p><strong>Responsibilities:</strong> Guards the main hallway leading to the Council Room and ensures the safety of the Jedi Temple.</p>
+
+    <p><strong>How To Obtain:</strong> Passing a Temple Guard Trial.</p>
+
+  </div>
+
+</div>
+   <br> 
+   <h1>LOW RANKS</h1>
+    <br>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Advanced Jedi Knight</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Those who have mastered their training from previous trials and demonstrate advanced skill in both combat and Jedi philosophy.</p>
+
+    <p><strong>How To Obtain:</strong> Trial from Jedi Council.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Jedi Knight</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> A Jedi Knight has completed all basic training and is now looking for a pathway to specialize in within the Order.</p>
+
+    <p><strong>How To Obtain:</strong> Complete Padawan Trial.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Padawan</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> An apprentice in the active phase of training to become a Jedi Knight. Tasked with learning the ways of the Jedi, improving combat techniques, and mastering Jedi philosophy.</p>
+
+    <p><strong>How To Obtain:</strong> Complete Initiate Trial.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Initiate</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Have learned the basic skills and are now moving towards higher difficulty techniques and Jedi training.</p>
+
+    <p><strong>How To Obtain:</strong> Complete Youngling Trial.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Youngling</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Have been taught the rules of the Jedi and are starting their combat journey within the Order.</p>
+
+    <p><strong>How To Obtain:</strong> Complete Force Sensitive Trial.</p>
+
+  </div>
+
+</div>
+    <div class="accordion-item">
+
+  <button class="accordion-header">Force Sensitive</button>
+
+  <div class="accordion-content">
+
+    <p><strong>Responsibilities:</strong> Newest members of the Jedi Order Legacy, beginning their journey in combat and Jedi training, soon learning the ways of the Force.</p>
+
+    <p><strong>How To Obtain:</strong> Join the Community.</p>
+
+  </div>
+
+</div>
+     </section>
+    <script src="js/script.js"></script>
+</body>
 </html>
+
+
